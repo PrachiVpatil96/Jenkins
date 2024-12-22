@@ -52,7 +52,8 @@ java -version
    ```
    Ensure the status shows `active (running)`.
 
-![Preview](img3.PNG)
+    ![Preview](img3.PNG)
+    
 ---
 
 ## 5. **Access Jenkins**
@@ -60,7 +61,9 @@ java -version
    ```
    http://<your_server_ip>:8080
    ```
-  ![Preview](Img4.PNG)
+   
+    ![Preview](Img4.PNG)
+
 2. You will be prompted to unlock Jenkins. Retrieve the initial admin password:
    ```bash
    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
@@ -68,21 +71,30 @@ java -version
    
 
 3. Copy the password, paste it into the browser, and follow the setup wizard to complete the installation.
+   
    ![Preview](Img5.PNG)
+
 ---
 
 ## 6. **Optional: Install Plugins and Create Admin User**
 During the setup wizard, you can:
 - Install suggested plugins.
-  ![preview](Img6.PNG)
-  ![Preview](Img7.PNG)
+    
+
+    ![preview](Img6.PNG)
+
+    ![Preview](Img7.PNG)
+
 - Create an admin user for managing Jenkins.
-  ![Prview](Img8.PNG)
+
+    ![Prview](Img8.PNG)
 
 ---
 
-Congratulations! Jenkins is now installed and ready to use on Ubuntu 22.04.
+#### Congratulations! Jenkins is now installed and ready to use on Ubuntu 22.04.
+
  ![Preview](Img9.PNG)
 
- You have Succefully Installed jenkins Youll see the Jenkins Homepage as below
+#### You have Succefully Installed jenkins Youll see the Jenkins Homepage as below
+
  ![preview](Img10.PNG)
