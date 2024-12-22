@@ -20,6 +20,7 @@ sudo apt install -y openjdk-17-jdk
 ```bash
 java -version
 ```
+![Preview](Img1.PNG)
 ---
 ## 3. **Install Jenkins**
 1. download the url from [Jenkins](https://www.jenkins.io/doc/book/installing/linux/#debianubuntu) install jenkins
@@ -32,6 +33,8 @@ java -version
     sudo apt-get update
     sudo apt-get install jenkins
 ```
+![Preview](Img2.PNG)
+---
 ## 4. **Start and Enable Jenkins Service**
 1. Start the Jenkins service:
    ```bash
@@ -49,7 +52,7 @@ java -version
    ```
    Ensure the status shows `active (running)`.
 
-
+![Preview](img3.PNG)
 ---
 
 ## 5. **Access Jenkins**
@@ -57,21 +60,29 @@ java -version
    ```
    http://<your_server_ip>:8080
    ```
-
+  ![Preview](Img4.PNG)
 2. You will be prompted to unlock Jenkins. Retrieve the initial admin password:
    ```bash
    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
    ```
+   
 
 3. Copy the password, paste it into the browser, and follow the setup wizard to complete the installation.
-
+   ![Preview](Img5.PNG)
 ---
 
 ## 6. **Optional: Install Plugins and Create Admin User**
 During the setup wizard, you can:
 - Install suggested plugins.
+  ![preview](Img6.PNG)
+  ![Preview](Img7.PNG)
 - Create an admin user for managing Jenkins.
+  ![Prview](Img8.PNG)
 
 ---
 
 Congratulations! Jenkins is now installed and ready to use on Ubuntu 22.04.
+ ![Preview](Img9.PNG)
+
+ You have Succefully Installed jenkins Youll see the Jenkins Homepage as below
+ ![preview](Img10.PNG)
